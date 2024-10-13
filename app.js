@@ -9,7 +9,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'http://localhost:5174'
+    origin: 'http://localhost:5173'
 }));
 
 app.use(bodyParser.urlencoded({ extended: false }))
